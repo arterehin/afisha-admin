@@ -1,0 +1,21 @@
+.yandex-maps {
+    position: relative;
+    width: 100%;
+    min-height: 240px;
+
+    &__pin {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -100%, 0);
+        z-index: 5;
+        color: $primary;
+    }
+
+    &__loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}

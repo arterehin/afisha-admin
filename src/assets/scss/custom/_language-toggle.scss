@@ -1,0 +1,10 @@
+.language-toggle {
+  &_container {
+    width: 45px;
+    display: inline-block;
+
+    & *::marker{
+      content: '';
+    }
+  }
+}

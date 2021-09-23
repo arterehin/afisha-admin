@@ -1,0 +1,34 @@
+.image-upload {
+    display: flex;
+
+    &__preview {
+        position: relative;
+        margin-right: 20px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-position: center center;
+        background-size: cover;
+    }
+    &__note {
+        display: block;
+    }
+    &__remove {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: $pink;
+        color: $white;
+        cursor: pointer;
+
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

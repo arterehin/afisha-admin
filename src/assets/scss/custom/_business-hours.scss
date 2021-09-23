@@ -1,0 +1,65 @@
+.business-hours-range {
+  display: inline-block;
+  background-color: $gray-100;
+  border-radius: $border-radius;
+
+  &__label {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: calc(1.8125rem + 2px);
+    border-left: 1px solid $gray-200;
+    border-right: 1px solid $gray-200;
+  }
+
+  &__tooltip {
+    .rc-time-picker-panel-inner {
+      margin-top: 3px;
+      font-size: inherit;
+    }
+
+    .rc-time-picker-panel-select {
+      font-size: inherit;
+    }
+  }
+
+  &__weekday {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  &__day-label {
+    display: block;
+    font-weight: bold;
+    width: 115px;
+    border-bottom: 1px solid $gray-200;
+  }
+
+  &__hours {
+    display: flex;
+  }
+
+  &__hours-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .rc-time-picker-input {
+    width: 60px;
+    height: calc(1.8125rem + 2px);
+    font-size: inherit;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .rc-time-picker-icon,
+  .rc-time-picker-clear {
+    display: none;
+  }
+}

@@ -1,0 +1,1 @@
+export const VISIBILITY_TOGGLE = "sidebar/visibility-toggle";

@@ -1,0 +1,18 @@
+.react-bootstrap-table {
+    background-color: $white;
+    border-radius: 0.25rem;
+
+    table thead th {
+        border-top: 0;
+    }
+
+    .row-expansion-style {
+        margin: 8px 0;
+        border-radius: 0.25rem;
+        background-color: $gray-200;
+    }
+
+    &-page-btns-ul {
+        justify-content: center;
+    }
+}
